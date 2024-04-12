@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kango's Site</title>
+    <style>
+      body {
+        font-family: Palatino, "Palatino Linotype", "Book Antiqua", serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+      }
+      header {
+        background-image: url(images/bali_mountain.jpg);
+        background-size: cover;
+        background-position: center;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+      }
+      h1 {
+        margin: 0;
+        font-size: 36px;
+      }
+      h2 {
+        margin: 0;
+      }
+      nav {
+        background-color: #666;
+        color: #fff;
+        padding: 7px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 0 10px;
+      }
+      .main-content {
+        flex: 1;
+        display: flex;
+        overflow: auto;
+      }
+      section {
+        padding: 20px;
+        background-color: #fff;
+        flex: 1;
+      }
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+        width: 100%;
+      }
+      #about {
+        width: 200px;
+        min-width: 200px;
+        max-width: 200px;
+        background-color: #f9f9f9;
+        padding: 10px;
+        overflow-y: hidden;
+        text-align: center; /* Center align the content */
+        font-size: 11px;
+        line-height: 1.6;
+      }
+      #home {
+        min-height: 2400px;
+        max-width: 20000px;
+        max-height: 20000px;
+      }
+      .profile-pic {
+        max-width: 85%;
+        min-width: 75%;
+        height: auto;
+        max-height: 175px;
+        margin-bottom: 0px; /* Add some space below the image */
+      }
+      .maritime-pic {
+        max-width: 40%;
+        min-width: 30%;
+        max-height: 30%;
+        margin-top: 5px;
+        border: 1px solid grey;
+      }
+      .medium-text {
+        font-size: 17px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Kango Lee</h1>
+      <p>Aspiring Data Engineer / Analyst</p>
+    </header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="resume.html">Resume</a>
+      <a href="projects.html">Projects</a>
+      <a href="index.html">Contact</a>
+    </nav>
+    <div class="main-content">
+      <section id="about">
+        <img
+          src="images/profile_pic.png"
+          alt="Kango's Profile Picture"
+          class="profile-pic"
+        />
+        <br />
+        <strong><span class="medium-text">Kango Lee</span></strong
+        ><br />
+        <strong>Singapore Management University</strong><br />
+        <strong>Information Systems</strong><br />
+        Smart City Management and Technology <br />
+        Sustainable Technologies <br /><br /><strong>Reach out to me!</strong
+        ><br />
+        <a href="mailto:zhenxiong_99@hotmail.com" style="color: #333">Email</a>
+        |
+        <a
+          href="https://www.linkedin.com/in/lee-zhen-xiong/"
+          style="color: #333"
+          >LinkedIn</a
+        >
+        |
+        <a href="https://www.github.com/KangoLee" style="color: #333">Github</a>
+      </section>
+      <section id="home">
+        <h2>Projects</h2>
+        <h3>School Projects</h3>
+
+        <ul>
+          <li>
+            <strong>Airline Data Analysis (Big Data Architecture)</strong>
+          </li>
+          <ul>
+            <li>
+              Using Amazon Web Services (AWS), we built a data engineering and
+              analytics pipeline from scratch to analyze and predict delays in
+              flights due to weather and major events.
+            </li>
+            <li>
+              In our pipelines, we have used <strong>AWS S3</strong>,
+              <strong>Glue</strong>, <strong>RedShift</strong>,
+              <strong>SageMaker</strong>, and <strong>QuickSight</strong>.
+            </li>
+          </ul>
+
+          <p></p>
+          <li>
+            <strong
+              >Impact of COVID-19 on Anti-immigration Sentiment (Computational
+              Social Science)</strong
+            >
+            <ul>
+              <li>
+                In this project, we explored the impact of COVID-19 on
+                anti-immigration sentiment on social media.
+              </li>
+              <li>
+                Leveraging <strong>Python</strong>, we used tools like
+                <strong>SNScrape</strong>, <strong>PRAW</strong>, and
+                <strong>PSAW</strong> for extracting social media posts on
+                Twitter and Reddit.
+              </li>
+              <li>
+                We also used libraries and models like <strong>NLTK</strong>,
+                <strong>Hugging Face</strong>, <strong>VADER</strong> and
+                <strong>BERT</strong> for text and sentiment processing.
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <h3>Competitions</h3>
+        <ul>
+          <li><strong>MaritimeOne Case Competition (Merit Winner)</strong></li>
+          <img
+            src="images/maritimeone.jpeg"
+            alt="MaritimeOne Case Competition Image"
+            class="maritime-pic"
+          />
+          <ul>
+            <li>
+              Over the course of a few weeks, my team and I had the opportunity
+              to dive deep into the inner workings of the maritime industry,
+              learning more about the massive challenges and opportunities for
+              decarbonization.
+            </li>
+            <li>
+              Our solution utilized new technologies like direct air capture,
+              which captures carbon for fuel production, and the electrification
+              of ports and vessels
+            </li>
+          </ul>
+          <li>
+            <strong>Youth Ecosperity Dialogue Challenge (Champion)</strong>
+          </li>
+          <img
+            src="images/yed_1.jpg"
+            alt="Youth Ecosperity Dialogue Image"
+            class="maritime-pic"
+          />
+          <ul>
+            <li>
+              Achieved first place in the YED Challenge Hackathon; proposed a
+              plan to PSA Singapore for reducing its Scope 3 emissions
+              contributed by container trucks in and out of Singapore’s ports
+            </li>
+          </ul>
+        </ul>
+        <h3>Extracurricular</h3>
+        <ul>
+          <li>Cooling Singapore 2.0</li>
+          <li>SMU Sustainability Changemaker Programme</li>
+          <li>Nature Kakis Youth Chapter</li>
+        </ul>
+      </section>
+    </div>
+    <footer></footer>
+  </body>
+</html>
