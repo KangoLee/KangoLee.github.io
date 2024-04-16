@@ -1,0 +1,93 @@
+body {
+  font-family: Palatino, "Palatino Linotype", "Book Antiqua", serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+header {
+  background-image: url(images/bali_mountain.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+h1 {
+  margin: 0;
+  font-size: 36px;
+}
+h2 {
+  margin: 0;
+}
+nav {
+  background-color: #666;
+  color: #fff;
+  padding: 7px 0;
+  text-align: center;
+  font-size: 12px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 10px;
+}
+.main-content {
+  flex: 1;
+  display: flex;
+  overflow: auto;
+}
+section {
+  padding: 20px;
+  background-color: #fff;
+  flex: 1;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+}
+#about {
+  width: 200px;
+  min-width: 200px;
+  max-width: 200px;
+  background-color: #f9f9f9;
+  padding: 10px;
+  overflow-y: hidden;
+  text-align: center; /* Center align the content */
+  font-size: 11px;
+  line-height: 1.6;
+}
+.intro-text {
+  font-size: 20px;
+}
+#home {
+  width: 95vw;
+  max-width: 2000px;
+}
+#home2 {
+  max-width: 3000px;
+  min-width: 50px;
+  max-width: 1000px;
+}
+.profile-pic {
+  max-width: 85%;
+  min-width: 75%;
+  height: auto;
+  max-height: 175px;
+  margin-bottom: 0px; /* Add some space below the image */
+}
+.maritime-pic {
+  max-width: 40%;
+  min-width: 30%;
+  max-height: 30%;
+  margin-top: 5px;
+  border: 1px solid grey;
+}
+.medium-text {
+  font-size: 17px;
+}
