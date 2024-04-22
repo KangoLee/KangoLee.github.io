@@ -68,6 +68,8 @@ footer {
 #home {
   width: 50vw;
   max-width: 10000px;
+  height: 100vw;
+  max-height: 10000px;
 }
 .profile-pic {
   max-width: 85%;
